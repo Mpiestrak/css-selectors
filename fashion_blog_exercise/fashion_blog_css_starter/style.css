@@ -11,6 +11,15 @@ time {
     color: lightgray;
     font-size: 30px;
 }
+
+article {
+    max-width: 900px;
+}
+
+aside {
+    max-width: 300px;
+    margin: 0 60px; 
+}
 h1 {
     display: inline;
 }
@@ -31,12 +40,21 @@ p {
     max-width: 300px;
 }
 
+.bigLetter::first-letter {
+    font-size: 500%;
+    float: left;
+    padding: 5px;
+    line-height: 50px;
+}
+
 
 p {
     border-bottom-color: lightgray;
 }
 
-main 
+main {
+    padding: 0, 100px, 0, 0;
+}
 
 nav {
     margin: 0px 0px;
@@ -56,6 +74,11 @@ nav li {
     color: white;
     padding: 20px 80px;
     margin: 0px;
+    
+}
+ul {
+    padding: 0px;
+    margin: 50px 0;
     
 }
 
